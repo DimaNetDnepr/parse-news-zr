@@ -29,7 +29,7 @@ def get_content(html):                                          # Функция
             'date': details['date']
         })
     print(news)
-    with open("test_db.json", "w") as jfile:
+    with open("db_zr.json", "w") as jfile:
         json.dump(news, jfile, indent=4, ensure_ascii=False)
 
 
